@@ -5,14 +5,19 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
 import android.view.WindowManager;
+import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
     private List<VideoModel> videoList = new ArrayList<>();
     private ViewPager2 viewPager2;
+
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
